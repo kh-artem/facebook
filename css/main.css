@@ -1,0 +1,187 @@
+@import url(reset.css);
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.wrapper {
+    width: 720px;
+    margin: 100px auto;
+
+}
+
+/* top-part */
+.top-part {
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+
+.top-part ul li {
+    display: inline-block;
+    padding: 0 26px;
+    font: 24px "HelveticaRegular";
+    color: #d8dce2;
+}
+
+.top-part ul li:first-child {
+    padding-left: 0;
+}
+
+.top-part .active {
+    color: #404347;
+}
+
+.top-part ul li:first-child {
+    border-right: 2px solid #d8dce2;
+}
+
+.top-part ul li a {
+    font: 24px "HelveticaRegular";
+    color: #d8dce2;
+    text-decoration: none;
+}
+
+.top-part ul li a:hover{
+    color: #404347;
+}
+/*top-part*/
+
+
+
+/* facebook-part*/
+.facebook-part {
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+/*header*/
+.top-header {
+    height: 106px;
+    background: #2d4687;
+    position: relative;
+    border-radius: 7px 7px 0 0;
+    padding: 23px 36px;
+    box-sizing: border-box;
+
+}
+
+.blue-arrow {
+    position: absolute;
+    top: -14px;
+    left: 48px;
+    width: 34px;
+    height: 14px;
+    background: url(../img/blue-arrow.png) no-repeat;
+}
+
+.header-txt h1 {
+    font: 24px "HelveticaRegular";
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.header-txt h4 {
+    font: 18px "HelveticaRegular", Arial;
+    color: #acb2c9;
+}
+
+.icon-facebook, .icon-arrow {
+    width: 58px;
+    height: 58px;
+
+}
+
+.icon-facebook a, .icon-arrow a {
+    width: 58px;
+    height: 58px;
+    display: block;
+}
+
+.icon-facebook {
+    background: url(../img/sprite.png) no-repeat -1px 0;
+    margin-right: 20px;
+}
+
+.icon-arrow {
+    background: url(../img/sprite.png) no-repeat -60px 0;
+}
+
+.content {
+    height: 325px;
+}
+/* header */
+
+
+
+/* form */
+.myForm {
+    width: 646px;
+    margin: 0 auto;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    border: none;
+    font: 18px "HelveticaRegular";
+    color: #c0c1c2;
+    margin-top: 30px;
+    padding: 15px 0;
+    border-bottom: 1px solid #d8dce2;
+}
+
+input[type="email"] {
+    margin-top: 45px;
+}
+
+input[type="password"] {
+    margin-bottom: 70px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    font: 18px "HelveticaRegular";
+    color: #d8dce2;
+    cursor: pointer;
+    line-height: 28px;
+
+}
+
+input[type="checkbox"] + label::before {
+    content: "";
+    float: left;
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    background: url(../img/checkbox.png) no-repeat;
+    vertical-align: middle;
+}
+
+.myForm button {
+    height: 44px;
+    width: 120px;
+    font: 18px "HelveticaBold";
+    color: #fff;
+    background-color: #339de5;
+    border: none;
+    border-radius: 6px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.myForm button:hover{
+    background-color: #277db8;
+}
+/* form */
+
+/* facebook-part */
