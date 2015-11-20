@@ -27,7 +27,7 @@ body {
 .top-part ul li {
     display: inline-block;
     padding: 0 26px;
-    font: 24px "HelveticaRegular";
+    font: 24px "HelveticaRegular", Arial, sans-serif;
     color: #d8dce2;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .top-part ul li a {
-    font: 24px "HelveticaRegular";
+    font: 24px "HelveticaRegular", Arial, sans-serif;
     color: #d8dce2;
     text-decoration: none;
 }
@@ -83,13 +83,13 @@ body {
 }
 
 .header-txt h1 {
-    font: 24px "HelveticaRegular";
+    font: 24px "HelveticaRegular", Arial, sans-serif;
     color: #fff;
     margin-bottom: 10px;
 }
 
 .header-txt h4 {
-    font: 18px "HelveticaRegular", Arial;
+    font: 18px "HelveticaRegular", Arial, sans-serif;
     color: #acb2c9;
 }
 
@@ -130,7 +130,7 @@ body {
 input[type="email"], input[type="password"] {
     width: 100%;
     border: none;
-    font: 18px "HelveticaRegular";
+    font: 18px "HelveticaRegular", Arial, sans-serif;
     color: #c0c1c2;
     margin-top: 30px;
     padding: 15px 0;
@@ -150,7 +150,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"] + label {
-    font: 18px "HelveticaRegular";
+    font: 18px "HelveticaRegular", Arial, sans-serif;
     color: #d8dce2;
     cursor: pointer;
     line-height: 28px;
@@ -170,7 +170,7 @@ input[type="checkbox"] + label::before {
 .myForm button {
     height: 44px;
     width: 120px;
-    font: 18px "HelveticaBold";
+    font: 18px "HelveticaBold", Arial, sans-serif;
     color: #fff;
     background-color: #339de5;
     border: none;
